@@ -1,0 +1,29 @@
+.person-details {
+  display: flex;
+  margin-right: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 90%;
+}
+
+.person-details .person-image {
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+.person-details .list-group-item {
+  padding: 0.25rem;
+}
+
+.person-details .list-group-item .term {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .person-details {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}

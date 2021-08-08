@@ -1,0 +1,9 @@
+.item-list .list-group-item {
+  cursor: pointer;
+  margin-left: 1rem;
+  width: 90%;
+}
+
+.item-list .list-group-item:hover {
+  background-color: #444;
+}
